@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.incesoft.tools</groupId>
 	<artifactId>ince-excel</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 
 	<build>
 		<plugins>
@@ -24,11 +24,13 @@
 	</build>
 	<distributionManagement>
 		<repository>
-			<id>incerepo</id>
-			<url>
-				dav:http://192.168.1.244:8000/artifactory/incerepo
-			</url>
+			<id>repo.baiyuxx</id>
+			<url>http://39.106.57.28:8081/nexus/content/repositories/releases/</url>
 		</repository>
+		<snapshotRepository>
+			<id>repo.baiyuxx-snapshots</id>
+			<url>http://39.106.57.28:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<dependencies>
